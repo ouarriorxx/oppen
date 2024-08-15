@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Date Request</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f0f8ff;
+      margin-top: 20%;
+      background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/pixel-heart.png'); /* Background hearts pattern */
+      background-size: cover;
+      background-repeat: repeat;
+    }
+    h1 {
+      color: #333;
+    }
+    .button {
+      padding: 10px 20px;
+      margin: 10px;
+      font-size: 18px;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+    }
+    .yes {
+      background-color: #4CAF50;
+      color: white;
+    }
+    .no {
+      background-color: #f44336;
+      color: white;
+      position: relative;
+    }
+    .no:hover {
+      position: absolute;
+      top: calc(50% - 20px);
+      left: calc(50% - 20px);
+      transform: translate(-50%, -50%);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Will you go on a date with me?</h1>
+  
+  <button class="button yes" onclick="alert('Yay! I\'m excited!')">YES</button>
+  
+  <button class="button no" onclick="alert('Oops, you missed!')">NO</button>
+
+</body>
+</html>
